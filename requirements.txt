@@ -1,0 +1,4 @@
+langchain
+langchain_community
+FAISS-cpu
+bs4

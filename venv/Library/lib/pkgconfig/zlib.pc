@@ -1,0 +1,13 @@
+prefix=D:/Lenditt/RAG_Langchain/venv/Library
+exec_prefix=D:/Lenditt/RAG_Langchain/venv/Library
+libdir=D:/Lenditt/RAG_Langchain/venv/Library/lib
+sharedlibdir=D:/Lenditt/RAG_Langchain/venv/Library/lib
+includedir=D:/Lenditt/RAG_Langchain/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
